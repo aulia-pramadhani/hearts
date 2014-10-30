@@ -1,0 +1,10 @@
+development: &dev
+  adapter: mysql2
+  encoding: utf8
+  pool: 64
+  database: heartsdoka
+  username: root
+  password: root
+  host: localhost
+  reconnect: true
+  port: 3306
